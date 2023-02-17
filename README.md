@@ -28,7 +28,10 @@ After training the data and building the three ML models, the SDAS of Al-4.5\%Cu
 </p>
 
 ## Prediction and Experiments validation
+
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/60518209/219731648-f46e4096-e837-419b-bc13-d8f41448fc0c.png" width = "630" />
  </p>
 
+It can be seen that the ANN has the best performance with a mean variance of 48.6 compared with LR (132.7) and PCA (134.1). And there is a big gap between the predicted value and experiment as the SDAS growth larger at small cooling rate.
+Then the SDAS of A356 under different processing conditions were predicted. By combining results in Fig. 10 and Tab. 2, the performance of ANN is much better than LR and PCA, which could well predict the SDAS. The mean variance of LR and PCA is over 600, almost three times of ANN. In addition, the LR and PCA both construct a linear relationship between SDAS and response variables. And the PCA has a worse performance than the LR is because it has weighted non-linear variables in LR. The reason that the three methods could not predict the SDAS under low cooling rate very well is because there are insufficient training data in the very low cooling rate range ($< 0.01 \ K/s$). By combining the results of Al-4.5\%Cu and A356, there are many properties other than cooling rate, such as the mixing entropy, the parameters of atomic size difference and the average mixing enthalpy, the mean valance electron concentration and the electronegativity parameters, the average specific heat capacity of mixing, the average thermal expansion of mixing and many others, that should be considered to predict the SDAS. 
