@@ -24,5 +24,5 @@ After training the data and building the three ML models, the SDAS of Al-4.5\%Cu
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/60518209/219729166-26676995-1012-4fa4-aff4-ed8854bf86bf.png" width = "630" />
   <img src = "https://user-images.githubusercontent.com/60518209/219729172-7b21a807-ba94-4544-87c1-aa30831232ff.png" width = "630" />
+  <img src = "https://user-images.githubusercontent.com/60518209/219730261-2c35e07d-b3e8-4087-a9df-204339918589.png" width = "630" />
 </p>
-
